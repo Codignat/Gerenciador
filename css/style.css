@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(180, 180, 202);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+header h1 {
+    background-color: rgb(143, 143, 214);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+.container {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type="file"] {
+    margin: 20px auto; /* Centraliza o input horizontalmente */
+    display: block;    /* Faz o input ocupar uma linha inteira */
+}
+textarea {
+    margin: 20px auto;
+    width: calc(100% - 40px);
+    max-width: 90%;
+    height: 200px;
+    display: block;
+}
+button {
+    display: block; 
+    margin: 20px auto; 
+    background-color: rgb(129, 129, 206);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    transition: 0.3s;
+    max-width: 200px;
+}
+button:hover {
+    background-color: #a538f2ad;
+    box-shadow: 0 6px #666;
+}
+button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #0c0c0c;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100%; 
+    position: relative;
+}
+
+
+  
